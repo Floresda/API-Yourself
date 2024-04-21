@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API YourSelf</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="code.js"></script>
+    <style>
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .character-card {
+        width: 200px;
+        background-color: #8d8d8d;
+        Color: white;
+        border-radius: 10px;
+        margin: 10px;
+        padding: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .character-card img {
+        max-width: 100%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .character-name {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .character-info {
+        font-size: 14px;
+    }
+    header {
+        text-align: center;
+        font-size: 50px;
+        text-decoration: bold;
+        padding: 50px;
+        background-color: black;
+        color: white;
+        margin-bottom: 25px;
+    }
+    .search-container {
+        margin-bottom: 25px;
+    }
+    </style>
+</head>
+<body>
+    <Header>Star Wars API</Header>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search characters...">
+    </div>
+
+    <div id="characters-container" class="container">
+    
+    </div>
+</body>
+</html>
